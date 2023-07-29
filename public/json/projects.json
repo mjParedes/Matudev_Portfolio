@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "name": "E-commerce Web App",
+      "github": "https://github.com/tu-usuario/e-commerce-app",
+      "deploy": "https://e-commerce-app.com",
+      "img": "https://picsum.photos/600/400"
+    },
+    {
+      "name": "Social Media Platform",
+      "github": "https://github.com/tu-usuario/social-media-platform",
+      "deploy": "https://social-media-platform.com",
+      "img": "https://picsum.photos/600/400"
+    },
+    {
+      "name": "Task Manager API",
+      "github": "https://github.com/tu-usuario/task-manager-api",
+      "deploy": "https://task-manager-api.com",
+      "img": "https://picsum.photos/600/400"
+    },
+    {
+      "name": "Portfolio Website",
+      "github": "https://github.com/tu-usuario/portfolio-website",
+      "deploy": "https://portfolio-website.com",
+      "img": "https://picsum.photos/600/400"
+    },
+    {
+      "name": "Online Learning Platform",
+      "github": "https://github.com/tu-usuario/learning-platform",
+      "deploy": "https://learning-platform.com",
+      "img": "https://picsum.photos/600/400"
+    },
+    {
+      "name": "Chat Application",
+      "github": "https://github.com/tu-usuario/chat-app",
+      "deploy": "https://chat-app.com",
+      "img": "https://picsum.photos/600/400"
+    }
+  ]
+}
