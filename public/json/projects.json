@@ -1,33 +1,33 @@
 {
   "projects": [
     {
-      "name": "E-commerce Web App",
+      "name": "Travellers",
       "github": "https://github.com/tu-usuario/e-commerce-app",
-      "deploy": "https://e-commerce-app.com",
+      "deploy": "https://travellers-proyecto-desarrollo-web-matudev.vercel.app/",
       "img": "https://picsum.photos/600/400"
     },
     {
-      "name": "Social Media Platform",
+      "name": "Sol y Luna - Restaurant",
       "github": "https://github.com/tu-usuario/social-media-platform",
-      "deploy": "https://social-media-platform.com",
+      "deploy": "https://www.solylunasancristobal.com/",
       "img": "https://picsum.photos/600/400"
     },
     {
-      "name": "Task Manager API",
+      "name": "Skill Swap",
       "github": "https://github.com/tu-usuario/task-manager-api",
-      "deploy": "https://task-manager-api.com",
+      "deploy": "https://s9-13-m-express-react.vercel.app/",
       "img": "https://picsum.photos/600/400"
     },
     {
-      "name": "Portfolio Website",
+      "name": "Planet Book",
       "github": "https://github.com/tu-usuario/portfolio-website",
-      "deploy": "https://portfolio-website.com",
+      "deploy": "https://planetbook-app.vercel.app/",
       "img": "https://picsum.photos/600/400"
     },
     {
-      "name": "Online Learning Platform",
+      "name": "Pet Care",
       "github": "https://github.com/tu-usuario/learning-platform",
-      "deploy": "https://learning-platform.com",
+      "deploy": "https://petcare-pied.vercel.app/",
       "img": "https://picsum.photos/600/400"
     },
     {

@@ -1,29 +1,10 @@
-// import Link from "next/link";
-// import React from "react";
-
-// const Navbar = () => {
-//   return (
-//     <nav className="bg-white bg-opacity-10 sticky top-0">
-//       <div className="min-w-full flex items-center justify-between p-1 sm:p-2 md:p-4 lg:p-6">
-//         <div>
-//           <h1 className="text-2xl">MATUDEV-LOGO</h1>
-//         </div>
-//         <div className="flex gap-2 sm:gap-6 md:gap-8 lg:gap-10">
-//           <Link href={"/"} className="hover:font-bold hover:scale-105">ABOUT ME</Link>
-//           <Link href={"/"} className="hover:font-bold hover:scale-105">MY PROJECTS</Link>
-//           <Link href={"/"} className="hover:font-bold hover:scale-105">MY STACK</Link>
-//           <Link href={"/"} className="hover:font-bold hover:scale-105">CONTACT ME</Link>
-//         </div>
-//       </div>
-//     </nav>
-//   );
-// };
-
-// export default Navbar;
 
 'use client'
 import Link from "next/link";
 import React, { useState } from "react";
+import { GiHamburgerMenu } from "react-icons/gi"
+import logoImg from '../../public/assets/logoApp.png'
+import Image from "next/image";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -36,7 +17,10 @@ const Navbar = () => {
     <nav className="bg-white bg-opacity-10 sticky top-0">
       <div className="min-w-full flex items-center justify-between p-1 sm:p-2 md:p-4 lg:p-6">
         <div>
-          <h1 className="text-2xl">MATUDEV-LOGO</h1>
+          {/* <h1 className="text-2xl">MATUDEV-LOGO</h1> */}
+          <Link href={'/'}>
+            <Image src={logoImg} alt="logo" width={80} height={80} />
+          </Link>
         </div>
         <div className="hidden md:flex gap-2 sm:gap-6 md:gap-8 lg:gap-10">
           <Link href={"/"} className="hover:font-bold hover:scale-105">
@@ -46,7 +30,7 @@ const Navbar = () => {
             MY PROJECTS
           </Link>
           <Link href={"/"} className="hover:font-bold hover:scale-105">
-            MY STACK
+            MY SKILLS
           </Link>
           <Link href={"/"} className="hover:font-bold hover:scale-105">
             CONTACT ME
@@ -58,7 +42,7 @@ const Navbar = () => {
             onClick={toggleMenu}
             className="text-white text-xl focus:outline-none"
           >
-            ☰
+            <GiHamburgerMenu size={25}/>
           </button>
         </div>
       </div>
