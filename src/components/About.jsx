@@ -1,8 +1,8 @@
 import React from "react";
 
-const About = () => {
+const About = ({id}) => {
   return (
-    <main className="w-full min-h-screen py-8 px-4 sm:px-6 md:px-8 lg:px-12">
+    <main className="w-full min-h-screen py-8 px-4 sm:px-6 md:px-8 lg:px-12" id={id}>
       <h1 className="text-6xl font-bold mx-auto">ABOUT ME</h1>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim laborum

@@ -15,24 +15,24 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white bg-opacity-10 sticky top-0">
-      <div className="min-w-full flex items-center justify-between p-1 sm:p-2 md:p-4 lg:p-6">
+      <div className="min-w-full flex items-center justify-between p-1 sm:p-2">
         <div>
           {/* <h1 className="text-2xl">MATUDEV-LOGO</h1> */}
           <Link href={'/'}>
-            <Image src={logoImg} alt="logo" width={80} height={80} />
+            <Image src={logoImg} alt="logo" width={60} height={60} />
           </Link>
         </div>
         <div className="hidden md:flex gap-2 sm:gap-6 md:gap-8 lg:gap-10">
-          <Link href={"/"} className="hover:font-bold hover:scale-105">
+          <Link href={"#about"} className="hover:font-bold hover:scale-105">
             ABOUT ME
           </Link>
-          <Link href={"/"} className="hover:font-bold hover:scale-105">
+          <Link href={"#projects"} className="hover:font-bold hover:scale-105">
             MY PROJECTS
           </Link>
-          <Link href={"/"} className="hover:font-bold hover:scale-105">
+          <Link href={"#skills"} className="hover:font-bold hover:scale-105">
             MY SKILLS
           </Link>
-          <Link href={"/"} className="hover:font-bold hover:scale-105">
+          <Link href={"#contact"} className="hover:font-bold hover:scale-105">
             CONTACT ME
           </Link>
         </div>

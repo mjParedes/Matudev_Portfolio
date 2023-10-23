@@ -2,10 +2,10 @@ import React from "react";
 import Link from "next/link";
 import ProjectCard from "./ProjectCard";
 
-const Projects = ({ projects }) => {
+const Projects = ({ projects, id }) => {
   console.log(projects);
   return (
-    <main className="w-full min-h-screen py-8 px-4 sm:px-6 md:px-8 lg:px-12">
+    <main className="w-full min-h-screen py-8 px-4 sm:px-6 md:px-8 lg:px-12" id={id}>
       <h1 className="text-6xl font-bold mx-auto">MY PROJECTS</h1>
       <div className="flex flex-col flex-wrap justify-center items-center mt-8 gap-6 sm:flex-row sm:justify-around">
         {projects.map((p, index) => (

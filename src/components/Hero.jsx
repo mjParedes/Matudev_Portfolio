@@ -9,7 +9,6 @@ import pythonImg from "/public/assets/python_img.png";
 import jsImg from "/public/assets/js_img.png";
 
 const Hero = () => {
-
   return (
     // to Home
     <header className="w-full min-h-screen py-8 px-4 sm:px-6 md:px-8 lg:px-12">
