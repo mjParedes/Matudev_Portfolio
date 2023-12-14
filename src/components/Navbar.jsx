@@ -14,12 +14,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white bg-opacity-10 sticky top-0">
-      <div className="min-w-full flex items-center justify-between p-1 sm:p-2">
+    <nav className="bg-blue-900 bg-opacity-85 sticky top-0">
+      <div className="min-w-full flex items-center justify-between py-1 px-4">
         <div>
           {/* <h1 className="text-2xl">MATUDEV-LOGO</h1> */}
           <Link href={'/'}>
-            <Image src={logoImg} alt="logo" width={60} height={60} />
+            <Image src={logoImg} alt="logo" width={80} height={80} />
           </Link>
         </div>
         <div className="hidden md:flex gap-2 sm:gap-6 md:gap-8 lg:gap-10">
@@ -49,16 +49,16 @@ const Navbar = () => {
       {/* Menú desplegable para resoluciones pequeñas */}
       {menuOpen && (
         <div className="flex flex-col items-center justify-center px-4 py-2 md:hidden">
-          <Link href={"/"} className="block py-2 hover:font-bold hover:scale-105">
+          <Link href={"#about"} className="block py-2 hover:font-bold hover:scale-105">
             ABOUT ME
           </Link>
-          <Link href={"/"} className="block py-2 hover:font-bold hover:scale-105">
+          <Link href={"#projects"} className="block py-2 hover:font-bold hover:scale-105">
             MY PROJECTS
           </Link>
-          <Link href={"/"} className="block py-2 hover:font-bold hover:scale-105">
+          <Link href={"#skills"} className="block py-2 hover:font-bold hover:scale-105">
             MY STACK
           </Link>
-          <Link href={"/"} className="block py-2 hover:font-bold hover:scale-105">
+          <Link href={"#contact"} className="block py-2 hover:font-bold hover:scale-105">
             CONTACT ME
           </Link>
         </div>

@@ -4,37 +4,37 @@
       "name": "Travellers",
       "github": "https://github.com/tu-usuario/e-commerce-app",
       "deploy": "https://travellers-proyecto-desarrollo-web-matudev.vercel.app/",
-      "img": "https://picsum.photos/600/400"
+      "img": "../assets/images/TRAVELLERS.png"
     },
     {
       "name": "Sol y Luna - Restaurant",
       "github": "https://github.com/tu-usuario/social-media-platform",
       "deploy": "https://www.solylunasancristobal.com/",
-      "img": "https://picsum.photos/600/400"
+      "img": "../assets/images/SOL Y LUNA RESTO-CDR.png"
     },
     {
       "name": "Skill Swap",
       "github": "https://github.com/tu-usuario/task-manager-api",
       "deploy": "https://s9-13-m-express-react.vercel.app/",
-      "img": "https://picsum.photos/600/400"
+      "img": "../assets/images/SKILLSWAP-NC.png"
     },
     {
       "name": "Planet Book",
       "github": "https://github.com/tu-usuario/portfolio-website",
       "deploy": "https://planetbook-app.vercel.app/",
-      "img": "https://picsum.photos/600/400"
+      "img": "../assets/images/PLANET-BOOK-CRD.png"
     },
     {
       "name": "Pet Care",
       "github": "https://github.com/tu-usuario/learning-platform",
       "deploy": "https://petcare-pied.vercel.app/",
-      "img": "https://picsum.photos/600/400"
+      "img": "../assets/images/PETCARE-CDR.png"
     },
     {
-      "name": "Chat Application",
-      "github": "https://github.com/tu-usuario/chat-app",
-      "deploy": "https://chat-app.com",
-      "img": "https://picsum.photos/600/400"
+      "name": "Earth Points",
+      "github": "https://github.com/No-Country/s11-20-m-typescript-react.git",
+      "deploy": "https://earthpoints.vercel.app/",
+      "img": "../assets/images/EARTH-POINTS.png"
     }
   ]
 }

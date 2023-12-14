@@ -1,19 +1,21 @@
 import React from "react";
+import profilePic from "../../public/assets/images/PORTFOLIO_PIC.png";
+import Image from "next/image";
 
-const About = ({id}) => {
+const About = ({ id }) => {
   return (
-    <main className="w-full min-h-screen py-8 px-4 sm:px-6 md:px-8 lg:px-12" id={id}>
-      <h1 className="text-6xl font-bold mx-auto">ABOUT ME</h1>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim laborum
-        ratione tenetur dolorum? Ex quas nostrum doloremque vel mollitia
-        perferendis quibusdam. Nostrum quae, rerum excepturi molestiae id unde
-        eius laudantium, pariatur necessitatibus quaerat reprehenderit sed,
-        reiciendis minus incidunt quibusdam dolore amet. Nihil eius laborum quae
-        voluptate, sit cumque, quidem accusamus debitis in ex et at facilis
-        officiis hic voluptatem, dolorem consectetur? Autem, pariatur, hic
-        repudiandae est ex odio incidunt quam illo aut nisi perferendis facere
-        cumque eius vel numquam eum.
+    <main
+      className="w-full min-h-screen py-8 px-4 sm:px-6 md:px-8 lg:px-12"
+      id={id}
+    >
+      <h1 className="text-6xl font-bold mx-auto py-14">ABOUT ME</h1>
+      <Image src={profilePic} alt="profile" width={600} height={800} className="m-auto mb-24" />
+      <p className="text-3xl font-bold tracking-wide">
+        Hi, I`m a passionate and experienced full-stack developer specializing
+        in the MERN stack. I have a deep understanding of various technologies
+        and methodologies. My journey in the world of software development has
+        been an exciting and fulfilling one. I thrive on challenges and enjoy
+        creating efficient and scalable solutions.
       </p>
     </main>
   );
